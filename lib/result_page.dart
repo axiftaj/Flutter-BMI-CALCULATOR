@@ -1,12 +1,11 @@
 import 'package:bmi_calculator/bottom_button.dart';
 import 'package:bmi_calculator/icon_contetn.dart';
 import 'package:flutter/material.dart';
-import 'reusable_card.dart';
 import 'constants.dart';
 
 
 
-class ResultPage extends StatefulWidget {
+class ResultPage extends StatelessWidget {
 
 
   ResultPage({@required this.bmiResult , this.resultText , this.interpretation});
@@ -68,9 +67,4 @@ class ResultPage extends StatefulWidget {
     );
   }
 
-  @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    throw UnimplementedError();
-  }
 }

@@ -6,7 +6,6 @@ import 'reusable_card.dart';
 import 'constants.dart';
 import 'result_page.dart';
 import 'bottom_button.dart';
-import 'package:bmi_calculator/InputPage.dart';
 
 class InputPage extends StatefulWidget {
   @override
