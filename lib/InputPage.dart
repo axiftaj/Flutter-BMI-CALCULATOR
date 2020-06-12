@@ -133,7 +133,6 @@ class _InputPageState extends State<InputPage> {
                               onPressed: () {
                                 setState(() {
                                   weight--;
-                                  print(weight--);
                                 });
                               },
                               icon: FontAwesomeIcons.minus,
@@ -145,7 +144,6 @@ class _InputPageState extends State<InputPage> {
                               onPressed: () {
                                 setState(() {
                                   weight++;
-                                  print(weight++);
                                 });
                               },
                               icon: FontAwesomeIcons.plus,
@@ -177,7 +175,7 @@ class _InputPageState extends State<InputPage> {
                               onPressed: () {
                                 setState(() {
                                   age--;
-                                  print(age++);
+
                                 });
                               },
                               icon: FontAwesomeIcons.minus,
@@ -189,7 +187,6 @@ class _InputPageState extends State<InputPage> {
                               onPressed: () {
                                 setState(() {
                                   age++;
-                                  print(age++);
                                 });
                               },
                               icon: FontAwesomeIcons.plus,
